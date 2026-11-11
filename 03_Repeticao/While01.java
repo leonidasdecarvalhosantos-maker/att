@@ -8,5 +8,3 @@ void main(){
         System.out.printf("%d x %d = %d \n", numero, multiplicador, numero*multiplicador);
         multiplicador++;
     }
-
-}
