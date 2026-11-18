@@ -1,0 +1,9 @@
+void main(){
+    var num = new int[5];
+    for (cont=0; cont<5; cont++)
+        num[cont] = Integer.parseInt(IO.readln("Digite o " + (cont+1) + "o número"));
+    IO.println("Estes são os números digitados: ");
+    for (int cont=0;cont<5;cont++)
+        IO.println("Posição" + (cont) + "número: " + num[cont]);
+
+}
